@@ -1,0 +1,21 @@
+{
+  "name": "drowsyawn",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "nodemon -L --exec babel-node ./src/index.js"
+  },
+  "dependencies": {
+    "express": "~4.16.1",
+    "hbs": "^4.2.0",
+    "morgan": "~1.9.1",
+    "mysql2": "^2.3.3",
+    "play-sound": "^1.1.5"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.18.2",
+    "@babel/node": "^7.17.10",
+    "@babel/preset-env": "^7.18.2",
+    "nodemon": "^2.0.16"
+  }
+}

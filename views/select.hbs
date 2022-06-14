@@ -1,0 +1,18 @@
+{{!-- 새로고침  --}}
+<meta http-equiv="refresh" content="1">
+<h1>{{title}}</h1>
+
+<table>
+    <tr>
+        <td>drowsy state</td>
+        <td>yawn state</td>
+    </tr>
+    {{!-- employee의 개수만큼 반복 --}}
+    {{#each drowyawn}}
+
+    <tr>
+        <td>{{d_state}}</td>
+        <td>{{y_state}}</td>
+    </tr>
+     {{/each}}
+</table>
